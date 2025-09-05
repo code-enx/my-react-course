@@ -1,5 +1,11 @@
+import Greet from "./components/Greet";
+
 function App() {
-  return <h1>Hello enix</h1>;
+  return (
+    <div>
+      <Greet />
+    </div>
+  );
 }
 
 export default App;
