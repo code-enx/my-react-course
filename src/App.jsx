@@ -1,15 +1,7 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from ".components/Footer";
+import JSXRules from "./components/JSXRules";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
+  return <JSXRules />;
 }
 
-export default App;
+export default JSXRules;
