@@ -1,7 +1,13 @@
-import JSXRules from "./components/JSXRules";
+import Greeting from "./components/Greeting";
+import ProductInfo from "./components/ProductInfo";
 
 function App() {
-  return <JSXRules />;
+  return (
+    <div>
+      <Greeting />
+      <ProductInfo />
+    </div>
+  );
 }
 
-export default JSXRules;
+export default App;
