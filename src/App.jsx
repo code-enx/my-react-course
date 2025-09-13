@@ -1,11 +1,13 @@
-import Whether from "./components/Whether";
-import UserStatus from "./components/UserStatus";
+import StyledCard from "./components/StyledCard";
+import ProfileCard from "./components/ProfileCard";
+import IconComponents from "./components/IconComponents";
 
 function App() {
   return (
     <div>
-      <Whether />
-      <UserStatus loggedIn={true} isAdmin={false} />
+      <StyledCard />;
+      <ProfileCard />;
+      <IconComponents />
     </div>
   );
 }
